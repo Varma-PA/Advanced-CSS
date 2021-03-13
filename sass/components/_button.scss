@@ -8,11 +8,12 @@
     border-radius: 10rem;
     transition: all 0.2s;
     position: relative;
+    font-size: 1.6rem;
   }
 
   &:hover {
     transform: translateY(-0.3rem);
-    box-shadow: 0 1rem 2rem rgba($color-black 0.2);
+    box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
 
     &::after {
       transform: scaleX(1.4) scaleY(1.6);
@@ -22,7 +23,7 @@
   //   Clicking It
   &:active {
     transform: translateY(-0.1rem);
-    box-shadow: 0 0.5rem 1rem rgba($color-black 0.2);
+    box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
   }
 
   &::after {
@@ -34,8 +35,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -1;
     transition: all 0.4s;
+    z-index: -1;
   }
 
   &--white {
